@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* HEADER START */
+.wrapper{
+    background-image: url(heroimage.jpg);
+    background-size: cover;
+    padding-top: 2.5em;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: black; */
+
+}
+.container{
+    margin: auto;
+    height: 100vh;
+    width: 85%;
+    /* border: 1px solid white; */
+    color: white;
+    
+}
+.logo_nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    gap: 14em;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p{
+    padding: 0.3em;
+    color: white;
+    font-weight: 700;
+    font-size: 2.1em;
+    /* justify-content: center; */
+}
+
+
+#navbar{
+    /* border: 1px solid white; */
+    list-style: none;
+    display: flex;
+    gap: 3em;
+    padding: 1em;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+#book{
+    background-color: #00C2FF;
+    padding: 0.4em;
+}
+
+.menu{
+    display: none;
+}
+
+li a{
+    text-decoration: none;
+    color:white;
+}
+
+/* CONTENT */
+
+h1{
+    padding-top: 5em;
+    color: #00C2FF;
+    font-weight: 700;
+    font-size: 4em;
+}
+h3{
+    font-weight: 400;
+    font-size: 2.2em;
+    
+}
+button{
+    background-color: #00C2FF;
+    font-weight: 400;
+    font-size: 1.9em;
+    border: none;
+    padding: .5em;
+    color: white;
+    
+}
+
+.btn{
+    padding-top: .4em;
+}
+
+/* FOOTER */
+
+.footer{
+    /* border: 1px solid red; */
+    background-color: black;
+    color: white;
+    padding: 2em;  
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    color: #00C2FF;
+}
+.box {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+
+
+
+/* baap agr relative then bacccha absolute */
+
+@media (max-width:450px)
+{
+
+    .wrapper{
+        background: #222;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    img{
+        height: 3em;
+        width: 3em;
+    }
+    #p{
+        font-size: 1.5em;
+    }
+   
+    .menu i {
+        font-size: 2em;
+      }
+
+    .content{
+        padding-top: 6em;
+    }
+
+    .container{
+        height: 90vh;
+    }
+    .logo_nav {
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 10em;
+        left: 0.7em;
+      }
+
+      .menu {
+        position: absolute;
+        cursor: pointer;
+        display: flex;
+        right: 1em;
+        font-size: 1em;
+      }
+    
+
+    /* footer */
+    .info{
+        flex-direction: column;
+        gap: 1.5em;
+    }
+}
