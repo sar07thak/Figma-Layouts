@@ -8,7 +8,7 @@
 
 /* HEADER START */
 .wrapper{
-    background-image: url(heroimage.jpg);
+    background-image: url(./cars/heroimage.jpg);
     background-size: cover;
     padding-top: 2.5em;
     font-family: 'Roboto', sans-serif;
