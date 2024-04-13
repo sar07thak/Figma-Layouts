@@ -1,7 +1,6 @@
 # Figma-Layouts
 <P> Hi Everyone ✋,</P>
-<h2>Thi is my FIGMA LAYOUT DESIGN </h2>
+<h2>Thi is my first project after competion of HTML and CSS</h2>
 <p>This Layout coded by using pure HTML AND CSS.
-This layout made as a automotive car company login page.
-<i>Please Visit my responsive Layout 👉👉  https://sar07thak.github.io/Figma-Layouts/</i></p>
+<i>Please Visit us 👉👉  https://sar07thak.github.io/NETFLIX/</i></p>
 
